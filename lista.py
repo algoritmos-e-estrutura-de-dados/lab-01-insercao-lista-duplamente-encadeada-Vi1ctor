@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-=======
+
 #Victor Hugo Macedo Silva
->>>>>>> f578e9b (first commit)
+
 
 class Node:
 
@@ -31,10 +30,8 @@ class Lista:
 
         self.tail.next = node
         node.prev = self.tail
-<<<<<<< HEAD
-=======
+
         self.tail = node
->>>>>>> f578e9b (first commit)
 
 
     def add(self, node):
@@ -49,10 +46,9 @@ class Lista:
             self.tail = node
             return
 
-<<<<<<< HEAD
         node.next = self.init
         self.init = node
-=======
+
 
 
         node.next = self.init
@@ -62,7 +58,7 @@ class Lista:
 
 
 
->>>>>>> f578e9b (first commit)
+
 
     def __str__(self):
         str_aux = '['
@@ -78,11 +74,9 @@ if __name__ == '__main__':
     lista = Lista()
     lista.add(Node(x=27))
     lista.add(Node(x=1))
-<<<<<<< HEAD
     print(lista)
     lista.append(Node(x=5))
     lista.append(Node(x=19))
-=======
     lista.add(Node(x=4))
     lista.add(Node(x=5))
     lista.add(Node(x=6))
@@ -90,5 +84,4 @@ if __name__ == '__main__':
     lista.append(Node(x=10))
     lista.append(Node(x=15))
     lista.append(Node(x=23))
->>>>>>> f578e9b (first commit)
     print(lista)
